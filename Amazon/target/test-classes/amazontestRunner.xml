@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Amazon e-commerce" parallel="tests">
+
+    <parameter name="url" value="http://www.amazon.com"/>
+
+    <test name = "Amazon Search">
+        <classes>
+            <class name="SearchItems.HomeSearch"/>
+        </classes>
+    </test>
+
+
+</suite>
