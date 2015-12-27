@@ -10,7 +10,7 @@ public class Search extends Base {
 
     @Test
     public void test1(){
-        clickOnCss("#search-button");
-        typeOnCss("#search-input-field", "politics");
+        clickByCss("#search-button");
+        typeByCss("#search-input-field", "politics");
     }
 }

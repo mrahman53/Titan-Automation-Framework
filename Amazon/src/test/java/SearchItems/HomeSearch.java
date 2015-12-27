@@ -19,7 +19,7 @@ public class HomeSearch extends Base {
 
         //get each text from the list, then enter each text into input box.
         for(int i=0; i<text.size(); i++){
-            typeOnCss("#twotabsearchtextbox",text.get(i));
+            typeByCss("#twotabsearchtextbox",text.get(i));
             keysInput("#twotabsearchtextbox");
             clearInput("#twotabsearchtextbox");
             sleepFor(3);
