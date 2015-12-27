@@ -3,6 +3,12 @@
 
 <suite name="Amazon e-commerce" parallel="tests">
 
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="userName" value="your user name"/>
+    <parameter name="key" value="generate key"/>
+    <parameter name="os" value="windows"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="browserVersion" value="43"/>
     <parameter name="url" value="http://www.amazon.com"/>
 
     <test name = "Amazon Search">

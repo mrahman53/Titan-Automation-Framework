@@ -3,6 +3,12 @@
 
 <suite name="Cnn news media" parallel="tests">
 
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="userName" value="your user name"/>
+    <parameter name="key" value="your ssh key"/>
+    <parameter name="os" value="Windows 10"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="browserVersion" value="43.0"/>
     <parameter name="url" value="http://www.cnn.com"/>
 
     <test name = "Cnn Search">
