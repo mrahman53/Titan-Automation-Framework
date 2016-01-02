@@ -13,7 +13,7 @@
 
     <test name = "Amazon Search">
         <classes>
-            <class name="SearchItems.HomeSearch"/>
+            <class name="registrationNLogin.SignUp"/>
         </classes>
     </test>
 

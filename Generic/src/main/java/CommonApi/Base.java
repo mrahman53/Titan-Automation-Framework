@@ -250,6 +250,10 @@ public class Base {
         driver.switchTo().frame(element);
     }
 
+    public void goBackToHomeWindow(){
+        driver.switchTo().defaultContent();
+    }
+
     //get Links
     public void getLinks(String locator){
         driver.findElement(By.linkText(locator)).findElement(By.tagName("a")).getText();

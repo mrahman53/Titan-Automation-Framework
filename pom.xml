@@ -12,6 +12,8 @@
         <module>Generic</module>
         <module>Cnn</module>
         <module>Amazon</module>
+        <module>BestBuy</module>
+        <module>RandomApp</module>
     </modules>
 
     <dependencyManagement>
