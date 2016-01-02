@@ -2,32 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2365b8bf-5ea4-435b-8428-a12fb067cf1d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Amazon/ExcelFile.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Amazon/data/file1.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cnn/data/file1.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Amazon/src/test/java/registrationNLogin/SignUp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BestBuy/BestBuy.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BestBuy/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cnn/src/test/java/search/data/DataToSearch.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Generic/src/main/java/util/ConnectDB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RandomApp/RandomApp.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RandomApp/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RandomApp/src/test/java/characterarcade/LogIn.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RandomApp/src/test/java/w3schools/TableData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RandomApp/src/test/resources/characterarcadeTestRunner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RandomApp/src/test/resources/w3schoolTestRunner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/target/test-classes/home/Search.class" afterPath="$PROJECT_DIR$/Cnn/target/test-classes/home/Search.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/target/classes/CommonApi/Base.class" afterPath="$PROJECT_DIR$/Generic/target/classes/CommonApi/Base.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/data/file1.xls" afterPath="$PROJECT_DIR$/Amazon/data/file1.xls" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/src/test/resources/amazontestRunner.xml" afterPath="$PROJECT_DIR$/Amazon/src/test/resources/amazontestRunner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/target/test-classes/amazontestRunner.xml" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/amazontestRunner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/src/test/java/home/Search.java" afterPath="$PROJECT_DIR$/Cnn/src/test/java/home/Search.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/target/test-classes/cnnTestRunner.xml" afterPath="$PROJECT_DIR$/Cnn/target/test-classes/cnnTestRunner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/src/main/java/CommonApi/Base.java" afterPath="$PROJECT_DIR$/Generic/src/main/java/CommonApi/Base.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/src/test/resources/cnnTestRunner.xml" afterPath="$PROJECT_DIR$/Cnn/src/test/resources/cnnTestRunner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RandomApp/src/test/resources/characterarcadeTestRunner.xml" afterPath="$PROJECT_DIR$/RandomApp/src/test/resources/characterarcadeTestRunner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RandomApp/src/test/resources/w3schoolTestRunner.xml" afterPath="$PROJECT_DIR$/RandomApp/src/test/resources/w3schoolTestRunner.xml" />
     </list>
     <ignored path="Titan-Automation-Framework.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,21 +60,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="characterarcadeTestRunner.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="characterarcadeTestRunner.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RandomApp/src/test/resources/characterarcadeTestRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.75695735">
-              <caret line="12" column="61" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state vertical-scroll-proportion="-5.5348835">
+              <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cnnTestRunner.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="w3schoolTestRunner.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RandomApp/src/test/resources/w3schoolTestRunner.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.5348835">
+              <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cnnTestRunner.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Cnn/src/test/resources/cnnTestRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.27907">
-              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.44155845">
+              <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -123,6 +112,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="amazontestRunner.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Amazon/src/test/resources/amazontestRunner.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.0465117">
+              <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="DataToSearch.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cnn/src/test/java/search/data/DataToSearch.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -138,26 +137,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="17" column="71" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataReader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/util/DataReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="23" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConnectDB.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/util/ConnectDB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -189,19 +168,19 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Generic/pom.xml" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/util/DataReader.java" />
-        <option value="$PROJECT_DIR$/Cnn/src/test/resources/cnnTestRunner.xml" />
         <option value="$PROJECT_DIR$/BestBuy/pom.xml" />
         <option value="$PROJECT_DIR$/RandomApp/pom.xml" />
-        <option value="$PROJECT_DIR$/RandomApp/src/test/resources/w3schoolTestRunner.xml" />
         <option value="$PROJECT_DIR$/Amazon/src/test/java/SignUp.java" />
         <option value="$PROJECT_DIR$/Amazon/src/test/resources/amazontestRunner.xml" />
-        <option value="$PROJECT_DIR$/RandomApp/src/test/resources/characterarcadeTestRunner.xml" />
         <option value="$PROJECT_DIR$/RandomApp/src/test/java/w3schools/TableData.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/CommonApi/Base.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/util/ConnectDB.java" />
         <option value="$PROJECT_DIR$/RandomApp/src/test/java/characterarcade/LogIn.java" />
         <option value="$PROJECT_DIR$/Cnn/src/test/java/search/data/DataToSearch.java" />
         <option value="$PROJECT_DIR$/Cnn/src/test/java/home/Search.java" />
+        <option value="$PROJECT_DIR$/RandomApp/src/test/resources/characterarcadeTestRunner.xml" />
+        <option value="$PROJECT_DIR$/RandomApp/src/test/resources/w3schoolTestRunner.xml" />
+        <option value="$PROJECT_DIR$/Cnn/src/test/resources/cnnTestRunner.xml" />
       </list>
     </option>
   </component>
@@ -434,7 +413,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Generic" />
+              <option name="myItemId" value="Cnn" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -448,11 +427,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Generic" />
+              <option name="myItemId" value="Cnn" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -466,7 +453,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Generic" />
+              <option name="myItemId" value="Cnn" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -474,7 +461,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -488,49 +475,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Generic" />
+              <option name="myItemId" value="Cnn" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Titan-Automation-Framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Titan-Automation-Framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Generic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CommonApi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1017,7 +966,13 @@
       <option name="project" value="LOCAL" />
       <updated>1451246383667</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="+RandomApp Module&#10;">
+      <created>1451764094111</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1451764094111</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1095,7 +1050,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="+helper methods on Base&#10;+Config to run maven test" />
     <MESSAGE value="+running on saucelabs&#10;+running on local env" />
-    <option name="LAST_COMMIT_MESSAGE" value="+running on saucelabs&#10;+running on local env" />
+    <MESSAGE value="+RandomApp Module&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="+RandomApp Module&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1451,22 +1407,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon/src/test/resources/amazontestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.744186">
-          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RandomApp/src/test/resources/w3schoolTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RandomApp/src/test/java/w3schools/TableData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1517,14 +1457,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cnn/src/test/resources/cnnTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.27907">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RandomApp/src/test/java/characterarcade/LogIn.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1567,8 +1499,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RandomApp/src/test/resources/characterarcadeTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75695735">
-          <caret line="12" column="61" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state vertical-scroll-proportion="-5.5348835">
+          <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RandomApp/src/test/resources/w3schoolTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.5348835">
+          <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon/src/test/resources/amazontestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.0465117">
+          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cnn/src/test/resources/cnnTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44155845">
+          <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
           <folding />
         </state>
       </provider>

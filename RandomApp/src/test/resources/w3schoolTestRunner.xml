@@ -3,9 +3,9 @@
 
 <suite name="W3school Scrap Table Data" parallel="tests">
 
-    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="useCloudEnv" value="true"/>
     <parameter name="userName" value="your user name"/>
-    <parameter name="key" value="your ssh key"/>
+    <parameter name="key" value="6f132866-de72-43fd-b49a-e6f81d26bfe3"/>
     <parameter name="os" value="Windows 10"/>
     <parameter name="browser" value="firefox"/>
     <parameter name="browserVersion" value="43.0"/>
