@@ -32,6 +32,7 @@
     <bytecodeTargetLevel>
       <module name="Amazon" target="1.5" />
       <module name="BestBuy" target="1.5" />
+      <module name="BestBuyRetail" target="1.5" />
       <module name="Cnn" target="1.5" />
       <module name="Generic" target="1.5" />
       <module name="RandomApp" target="1.5" />

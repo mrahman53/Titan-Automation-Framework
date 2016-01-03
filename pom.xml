@@ -12,7 +12,6 @@
         <module>Generic</module>
         <module>Cnn</module>
         <module>Amazon</module>
-        <module>BestBuy</module>
         <module>RandomApp</module>
     </modules>
 
@@ -41,5 +40,30 @@
         </dependencies>
     </dependencyManagement>
 
+    <profiles>
+        <profile>
+            <id>amazon-app</id>
+            <modules>
+              <module>Generic</module>
+              <module>Amazon</module>
+            </modules>
+        </profile>
+
+        <profile>
+            <id>cnn-app</id>
+            <modules>
+             <module>Generic</module>
+             <module>Cnn</module>
+            </modules>
+        </profile>
+
+        <profile>
+            <id>random-app</id>
+            <modules>
+              <module>Generic</module>
+              <module>RandomApp</module>
+            </modules>
+        </profile>
+    </profiles>
 
 </project>
