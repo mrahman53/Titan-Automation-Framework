@@ -22,6 +22,8 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
+import org.apache.log4j.Logger;
+
 
 /**
  * Created by rrt on 12/26/2015.
@@ -29,7 +31,7 @@ import java.util.concurrent.TimeUnit;
 public class Base {
 
     public WebDriver driver = null;
-
+    final static Logger logger = Logger.getLogger(Base.class);
     @Parameters({"useCloudEnv","userName","key","os","browser","browserVersion","url"})
     @BeforeMethod
     public void setUp(@Optional("false")Boolean useCloudEnv, @Optional("rahmanww") String userName,@Optional("gdfsd")
@@ -39,11 +41,13 @@ public class Base {
 
         if(useCloudEnv==true){
             //run on cloud
+            logger.trace("Test is running on cloud env");
             getCloudDriver(userName,key,OS,browser,browserVersion);
             System.out.println("Tests is running on Saucelabs, please wait for result");
 
         }else{
             //run on local
+            logger.trace("Test is running on local env");
             getLocalDriver(OS,browser,browserVersion);
         }
         driver.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS);

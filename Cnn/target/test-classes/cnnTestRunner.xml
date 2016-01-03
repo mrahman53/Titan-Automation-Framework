@@ -3,7 +3,7 @@
 
 <suite name="Cnn news media" parallel="tests">
 
-    <parameter name="useCloudEnv" value="true"/>
+    <parameter name="useCloudEnv" value="false"/>
     <parameter name="userName" value="rahmanww"/>
     <parameter name="key" value="6f132866-de72-43fd-b49a-e6f81d26bfe3"/>
     <parameter name="os" value="Windows 10"/>
