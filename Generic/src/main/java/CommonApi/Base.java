@@ -1,6 +1,8 @@
 package CommonApi;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.log4j.BasicConfigurator;
+import org.apache.log4j.Level;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -31,7 +33,9 @@ import org.apache.log4j.Logger;
 public class Base {
 
     public WebDriver driver = null;
-    final static Logger logger = Logger.getLogger(Base.class);
+    public static Logger logger = Logger.getLogger(Base.class);
+
+
     @Parameters({"useCloudEnv","userName","key","os","browser","browserVersion","url"})
     @BeforeMethod
     public void setUp(@Optional("false")Boolean useCloudEnv, @Optional("rahmanww") String userName,@Optional("gdfsd")
@@ -39,15 +43,18 @@ public class Base {
                       @Optional("40.0") String browserVersion,
                       @Optional("http://www.cnn.com") String url)throws IOException{
 
+      //  BasicConfigurator.configure();
         if(useCloudEnv==true){
             //run on cloud
-            logger.trace("Test is running on cloud env");
+            logger.setLevel(Level.INFO);
+            logger.info("Test is running on cloud env");
             getCloudDriver(userName,key,OS,browser,browserVersion);
             System.out.println("Tests is running on Saucelabs, please wait for result");
 
         }else{
             //run on local
-            logger.trace("Test is running on local env");
+            logger.setLevel(Level.INFO);
+            logger.info("Test is running on local env");
             getLocalDriver(OS,browser,browserVersion);
         }
         driver.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS);

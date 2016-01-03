@@ -1,6 +1,7 @@
 package SearchItems;
 
 import CommonApi.Base;
+import org.apache.log4j.Level;
 import org.openqa.selenium.Keys;
 import org.testng.annotations.Test;
 
@@ -14,6 +15,8 @@ public class HomeSearch extends Base {
 
     @Test
     public void test1()throws InterruptedException{
+        logger.setLevel(Level.INFO);
+        logger.info("Amazon search test is started");
         //fetch the list of webelemnets from drop down menu and get text form the list
         List<String> text= getTextFromWebElements("#searchDropdownBox option");
 
