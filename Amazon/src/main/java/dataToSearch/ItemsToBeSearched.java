@@ -15,7 +15,8 @@ public class ItemsToBeSearched  {
     //Option 2, supplu data from External source like excel files.
     DataReader dr = new DataReader();
     public String [] getData()throws IOException{
-        String [] st = dr.fileReader("C:\\Users\\rrt\\IdeaProjects\\Titan-Automation-Framework\\Amazon\\data\\file1.xls");
+        String [] st = dr.fileReader("/Users/mrahman/develop/pnt/Titan-Automation-Framework/Amazon/data/file1./xls");
+
      return st;
     }
 }
