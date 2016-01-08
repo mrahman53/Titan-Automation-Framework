@@ -48,6 +48,9 @@
     <profiles>
         <profile>
             <id>amazon-app</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
             <modules>
               <module>Generic</module>
               <module>Amazon</module>
