@@ -46,6 +46,7 @@
     </dependencyManagement>
 
     <profiles>
+
         <profile>
             <id>amazon-app</id>
             <modules>
@@ -65,7 +66,7 @@
                 <module>Amazon</module>
                 <module>RandomApp</module>
             </modules>
-            </profile>
+        </profile>
 
         <profile>
             <id>cnn-app</id>
