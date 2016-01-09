@@ -47,7 +47,7 @@
 
     <profiles>
         <profile>
-            <id>x</id>
+            <id>amazon-app</id>
             <modules>
                 <module>Generic</module>
                 <module>Amazon</module>
