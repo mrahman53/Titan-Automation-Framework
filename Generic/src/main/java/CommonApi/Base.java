@@ -43,6 +43,8 @@ public class Base {
                       @Optional("40.0") String browserVersion,
                       @Optional("http://www.cnn.com") String url)throws IOException{
 
+
+
       //  BasicConfigurator.configure();
         if(useCloudEnv==true){
             //run on cloud
