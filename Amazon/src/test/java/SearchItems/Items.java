@@ -17,8 +17,9 @@ public class Items extends Base {
 
      @Test
     public void search()throws IOException,InterruptedException{
-
+         //initialize Search page factory
         Search search = PageFactory.initElements(driver,Search.class);
+         //Read data from excel file
         ItemsToBeSearched itemsToBeSearched = new ItemsToBeSearched();
         String [] st = itemsToBeSearched.getData();
          for(String data:st) {

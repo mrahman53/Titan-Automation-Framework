@@ -13,7 +13,7 @@
 
     <test name = "Cnn Search">
         <classes>
-            <class name="home.Search"/>
+            <class name="search.data.SearchNews"/>
         </classes>
     </test>
 

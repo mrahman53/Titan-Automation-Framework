@@ -12,7 +12,7 @@ import java.util.List;
  */
 public class ItemsToBeSearched  {
 
-    //Option 2, supplu data from External source like excel files.
+    //Option 2, supply data from External source like excel files.
     DataReader dr = new DataReader();
     public String [] getData()throws IOException{
         String path = System.getProperty("user.dir")+"/data/file1.xls";
