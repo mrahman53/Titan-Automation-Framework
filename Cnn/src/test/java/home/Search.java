@@ -15,8 +15,7 @@ public class Search extends Base {
     @DataProvider(name = "items")
     public Object[][] createData(){
         return new Object[][]{
-                {"Politics"} ,
-                {"Money"} ,
+                {"Politics"},
                 {"Tech"},
         };
     }
