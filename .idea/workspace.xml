@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2365b8bf-5ea4-435b-8428-a12fb067cf1d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Generic/target/classes/CommonApi/Base.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/Amazon.iml" afterPath="$PROJECT_DIR$/Amazon/Amazon.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/Cnn.iml" afterPath="$PROJECT_DIR$/Cnn/Cnn.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/Generic.iml" afterPath="$PROJECT_DIR$/Generic/Generic.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RandomApp/RandomApp.iml" afterPath="$PROJECT_DIR$/RandomApp/RandomApp.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/src/test/java/search/data/SearchNews.java" afterPath="$PROJECT_DIR$/Cnn/src/test/java/search/data/SearchNews.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Titan-Automation-Framework.iml" afterPath="$PROJECT_DIR$/Titan-Automation-Framework.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Titan-Automation-Framework.iws" />
@@ -1007,7 +1000,13 @@
       <option name="project" value="LOCAL" />
       <updated>1452408676454</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="+Database Connection">
+      <created>1452439793124</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1452439793124</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
