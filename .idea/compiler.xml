@@ -50,9 +50,15 @@
     <bytecodeTargetLevel>
       <module name="Amazon" target="1.8" />
       <module name="Cnn" target="1.8" />
+<<<<<<< Updated upstream
       <module name="Generic" target="1.5" />
       <module name="RandomApp" target="1.8" />
       <module name="Titan-Automation-Framework" target="1.5" />
+=======
+      <module name="Generic" target="1.8" />
+      <module name="RandomApp" target="1.8" />
+      <module name="Titan-Automation-Framework" target="1.8" />
+>>>>>>> Stashed changes
     </bytecodeTargetLevel>
   </component>
 </project>
