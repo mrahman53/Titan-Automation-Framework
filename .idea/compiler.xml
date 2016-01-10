@@ -22,18 +22,36 @@
         <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="Amazon" />
         <module name="BestBuy" />
-        <module name="Cnn" />
         <module name="Generic" />
+      </profile>
+      <profile default="false" name="Annotation profile for Amazon" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="Amazon" />
+      </profile>
+      <profile default="false" name="Annotation profile for Cnn" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="Cnn" />
+      </profile>
+      <profile default="false" name="Annotation profile for RandomApp" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
         <module name="RandomApp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Amazon" target="1.5" />
-      <module name="Cnn" target="1.5" />
+      <module name="Amazon" target="1.8" />
+      <module name="Cnn" target="1.8" />
       <module name="Generic" target="1.5" />
-      <module name="RandomApp" target="1.5" />
+      <module name="RandomApp" target="1.8" />
       <module name="Titan-Automation-Framework" target="1.5" />
     </bytecodeTargetLevel>
   </component>

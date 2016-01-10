@@ -21,14 +21,14 @@ public class SearchNews extends Base {
     }
 
     public void chooseAction(String action)throws Exception {
-//        switch(action){
-//            case "ClickOnSearch": ClickOnSearch();
-//                break;
-//            case "TypeOnSearch": TypeOnSearch();
-//                break;
-//            default:System.out.println("Invalid Input");
-//                break;
-//        }
+        switch(action){
+            case "ClickOnSearch": ClickOnSearch();
+                break;
+            case "TypeOnSearch": TypeOnSearch();
+                break;
+            default:System.out.println("Invalid Input");
+                break;
+        }
     }
 
     public String getNewsData()throws Exception{
