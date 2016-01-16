@@ -57,11 +57,8 @@ public class ConnectDB {
     }
     private void writeResultSetToConsole(ResultSet resultSet) throws SQLException {
         while (resultSet.next()) {
-            String userName = resultSet.getString("username");
-            String passwd = resultSet.getString("passwd");
-            String email = resultSet.getString("email");
-            System.out.println("Password: " + passwd);
-            System.out.println("Email: " + email);
+            String itemName = resultSet.getString("item_name");
+            System.out.println("item name: " + itemName);
         }
 
     }
